@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    min-height: 115px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
@@ -45,6 +46,7 @@ nav a {
 }
 
 footer {
+    min-height: 153px;
     background-color: black;
     color: aliceblue;
     display: grid;
