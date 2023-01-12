@@ -1,10 +1,48 @@
+body {
+    font-style: "Bebas Neue";
+}
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.adress {
+    justify-self: end;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+}
+
+main section a {
+    border: solid 1px black;
+    padding: 10px;
+    display: block;
+    width: 90%;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+}
+
+nav a {
+    border: 1px solid black
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     
 }
