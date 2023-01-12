@@ -1,5 +1,5 @@
 body {
-    font-style: "Bebas Neue";
+    font-style: "Bebas Neue" "Times New Roman" serif;
 }
 header {
     display: grid;
@@ -20,7 +20,6 @@ a {
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
 }
 
 main section a {
