@@ -46,9 +46,8 @@ main {
 
 main section:first-child {
     min-width: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr auto auto auto;
 }
 
 main section a {
