@@ -40,7 +40,7 @@ h1 {
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     padding: 20px;
     gap: 20px;
 }
@@ -51,6 +51,12 @@ main section a {
     display: block;
     width: 90%;
     text-align: center;
+}
+
+main section a:hover {
+    background-color: black;
+    color: aliceblue;
+    transition: 1s;
 }
 
 section p {
