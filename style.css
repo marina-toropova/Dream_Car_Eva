@@ -115,12 +115,6 @@ nav a {
     justify-content: space-between;
 }
 
-nav a:hover {
-    background-color: black;
-    color: aliceblue;
-    transition: 1s;
-}
-
 nav a:nth-child(3) {
     border-bottom: 1px solid black;
 }
