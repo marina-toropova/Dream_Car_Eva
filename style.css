@@ -88,6 +88,7 @@ section p {
     border: 6px solid #E5E5E5;
     border-radius: 10px;
     align-self: center;
+    margin-right: 10px;
 }
 
 .slider-controls span:nth-of-type(1) {
