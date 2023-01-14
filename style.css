@@ -105,7 +105,7 @@ section p {
 
 nav {
     display: grid;
-    padding: 20px;
+    padding: 55px 0 79px 20px;
 }
 
 nav a {
