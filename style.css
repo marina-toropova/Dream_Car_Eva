@@ -30,11 +30,21 @@ a {
     color: black;
 }
 
-.adress {
+header div {
+    justify-self: end;
+    text-align: end;
+}
+
+header div a {
+    text-align: end;
+}
+
+address.adress {
     justify-self: end;
     font-size: 18px;
     line-height: 22px;
     text-align: end;
+    font-style: normal;
 }
 
 h1 {
@@ -162,7 +172,7 @@ footer div h3 {
 }
 
 @media (max-width: 1023px) {
-    .adress {
+    header div {
         display: none;
     }
 
@@ -246,7 +256,12 @@ footer div h3 {
     }
 }
 
-@media (min-width: 375px) {
+@media (max-width: 376px) {
+
+    header {
+        min-height: 50px;
+    }
+
     main {
         grid-template-areas: "section1 section1"
         "section2 section3"
@@ -262,6 +277,7 @@ footer div h3 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        min-width: 320px;
     }
 
     div.footer-text {
