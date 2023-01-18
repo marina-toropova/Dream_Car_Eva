@@ -245,3 +245,26 @@ footer div h3 {
         grid-row: 2/3;
     }
 }
+
+@media (min-width: 375px) {
+    main {
+        grid-template-areas: "section1 section1"
+        "section2 section3"
+        "link-zakaz link-call";
+    }
+
+    .slider-controls,
+    main section:nth-child(4) {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div.footer-text {
+        order: 1;
+    }
+}
