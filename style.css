@@ -176,8 +176,8 @@ footer div h3 {
 
     main {
         grid-template-areas: "section1 section1 section1"
-        "section2 section3 section4"
-        "link-zakaz link-call slider"
+            "section2 section3 section4"
+            "link-zakaz link-call slider"
         ;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -221,11 +221,27 @@ footer div h3 {
 
     footer {
         grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
     }
 
-    footer div:nth-child(2) {
+    .logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    div.grey-text {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .footer-text {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: start;
+    }
+
+    .contacts {
         grid-column: 2/3;
         grid-row: 2/3;
-        justify-self: start;
     }
 }
