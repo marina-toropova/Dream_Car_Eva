@@ -56,7 +56,7 @@ main section:first-child {
     grid-template-rows: 1fr auto auto auto;
 }
 
-main section a {
+.main__link {
     border: solid 0.5px black;
     padding: 10px;
     display: block;
@@ -65,7 +65,7 @@ main section a {
     font-family: 'Oswald';
 }
 
-main section a:hover {
+.main__link:hover {
     background-color: black;
     color: aliceblue;
     transition: 1s;
@@ -167,9 +167,26 @@ footer div h3 {
     main {
         grid-template-areas: "section1 section1 section1"
         "section2 section3 section4"
-        "button-zakaz button-call slider"
+        "link-zakaz link-call slider"
         ;
     }
 
+    main section:first-child {
+        grid-area: section1;
+    }
+
+    main section:nth-child(2) {
+        grid-area: section2;
+    }
+
+    main section:nth-child(3) {
+        grid-area: section3;
+    }
+
+    main section:nth-child(4) {
+        grid-area: section4;
+    }
+
     
+
 }
