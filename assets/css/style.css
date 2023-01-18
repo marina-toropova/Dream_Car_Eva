@@ -3,6 +3,7 @@ body {
     font-weight: 400;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .container {
@@ -258,19 +259,59 @@ footer div h3 {
 
 @media (max-width: 376px) {
 
+    .container {
+        width: 100%;
+    }
+
+    img {max-width: 140px;}
+
     header {
         min-height: 50px;
+        padding: 10px;
+    }
+
+    .header_text {
+        font-size: 16px;
+        line-height: 19px;
     }
 
     main {
         grid-template-areas: "section1 section1"
-        "section2 section3"
-        "link-zakaz link-call";
+            "section2 section3"
+            "link-zakaz link-call";
+        padding: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section:first-child {
+        min-width: none;
+    }
+
+    main h1 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    main a {
+        max-width: 140px;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 5px 0;
+    }
+
+    section p {
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .slider-controls,
     main section:nth-child(4) {
         display: none;
+    }
+
+    nav a {
+        font-size: 16px;
+        line-height: 19px;
     }
 
     footer {
