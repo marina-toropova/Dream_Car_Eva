@@ -155,4 +155,21 @@ footer div h3 {
     .adress {
         display: none;
     }
+
+    .slider-controls a {
+        visibility: hidden;
+    }
+
+    .slider-controls div {
+        align-self: center;
+    }
+
+    main {
+        grid-template-areas: "section1 section1 section1"
+        "section2 section3 section4"
+        "button-zakaz button-call slider"
+        ;
+    }
+
+    
 }
