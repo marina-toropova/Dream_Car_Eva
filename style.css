@@ -150,3 +150,9 @@ footer div h3 {
     line-height: 27px;
     justify-self: center;
 }
+
+@media (max-width: 1023px) {
+    .adress {
+        display: none;
+    }
+}
