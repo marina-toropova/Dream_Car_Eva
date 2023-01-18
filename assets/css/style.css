@@ -257,6 +257,96 @@ footer div h3 {
     }
 }
 
+@media (max-width: 747px) {
+
+    .container {
+        width: 100%;
+    }
+
+    img {
+        max-width: 140px;
+    }
+
+    header {
+        min-height: 50px;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    main {
+        
+        padding: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    main section:first-child {
+        width: auto;
+    }
+
+    .slider-controls a {
+        visibility: hidden;
+    }
+
+    main h1 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    main a {
+        max-width: 140px;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 5px 0;
+    }
+
+    section p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .main__link {
+        padding: 5px 0;
+    }
+
+    nav {
+        padding: 20px 0;
+    }
+
+    nav a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 320px;
+        padding: 10px;
+    }
+
+    footer div h3 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    footer div p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    div.grey-text {
+        order: 1;
+        font-size: 10px;
+        line-height: 8px;
+    }
+
 @media (max-width: 376px) {
 
     .container {
