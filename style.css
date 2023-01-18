@@ -151,6 +151,12 @@ footer div h3 {
     justify-self: center;
 }
 
+@media (min-width: 1024px) {
+    .call {
+        display: none;
+    }
+}
+
 @media (max-width: 1023px) {
     .adress {
         display: none;
@@ -187,6 +193,16 @@ footer div h3 {
         grid-area: section4;
     }
 
-    
+    main a.main__link {
+        grid-area: link-zakaz;
+    }
+
+    main a.call {
+        grid-area: link-call;
+    }
+
+    .slider-controls {
+        grid-area: slider;
+    }
 
 }
