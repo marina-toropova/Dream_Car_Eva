@@ -62,7 +62,7 @@ main {
 }
 
 main section:first-child {
-    min-width: 450px;
+    
     display: grid;
     grid-template-rows: 1fr auto auto auto;
 }
@@ -263,14 +263,16 @@ footer div h3 {
         width: 100%;
     }
 
-    img {max-width: 140px;}
+    img {
+        max-width: 140px;
+    }
 
     header {
         min-height: 50px;
         padding: 10px;
     }
 
-    .header_text {
+    .logo {
         font-size: 16px;
         line-height: 19px;
     }
@@ -281,10 +283,11 @@ footer div h3 {
             "link-zakaz link-call";
         padding: 10px;
         grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 
     main section:first-child {
-        min-width: none;
+        width: 300px;
     }
 
     main h1 {
@@ -309,6 +312,10 @@ footer div h3 {
         display: none;
     }
 
+    .main__link {
+        padding: 5px 0;
+    }
+
     nav a {
         font-size: 16px;
         line-height: 19px;
@@ -319,9 +326,22 @@ footer div h3 {
         flex-direction: column;
         flex-wrap: wrap;
         min-width: 320px;
+        padding: 10px;
     }
 
-    div.footer-text {
+    footer div h3 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    footer div p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    div.grey-text {
         order: 1;
+        font-size: 10px;
+        line-height: 8px;
     }
 }
